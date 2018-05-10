@@ -1,36 +1,10 @@
 html,body {
 height:100%;
-  font-size: 1rem;
 
 }
-
-/* Making the text more responsive */
-
-
-
-@media (max-width: @screen-xs) {
-    html{font-size: 10px;}
-}
-
-@media (max-width: @screen-sm) {
-    html{font-size: 14px;}
-}
-
-h2 {
-    font-size: 1.775em!important;
-}
-
-h4{
-  font-size: 1.175em!important;
-}
-
-
-p{font-size:16px;}
-
 .bg-1{background-color:#1abc9c;color:#ffffff;}
 .bg-2{background-color:#474e5d;color:#ffffff;}
 .bg-3{background-color:#ffffff;color:#555555;}
-.bg-4{background-color:#2f2f2f;color:#fff;}
 .container-fluid{padding-top:20px;padding-bottom:20px;}
 
 .ratio {
