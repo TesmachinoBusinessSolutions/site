@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Get a Quote for our services | Tesmachino</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#000000" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="TesMachino Business Solutions,Deploy,web interface, Design,Develop,Bootstrap, Tesmachino, business solutions,Web hosting company, Domain Registration, Hosting Support,online website,website design, website Creation, website deployment and website maintenace,deployment and maintenance/">
+  <meta name="description" content="TesMachino Business Solutions | Low cost Solution Why Waiting, please fill in the form to contact us.
+  We server vijayawada Kerela Guntur Amaravati Chennai Tamil Nadu Contact Us for Great Offers and Discounts"/>
+  <meta name="author" content="TesMachino Business Solutions" />  <!-- diff -->
+  <!-- styling -->
+  <link rel="icon" href="images/favicon_tesmachino.ico" />
+  <!-- Include the above in your HEAD tag -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/quote.css" />
+  <!--<script src="//code.jquery.com/jquery-1.10.2.js"></script>-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="jquery/jquery.js"></script>
+  <script>
+    $(function() {
+      $("#footer").load("footer/footer0.html");
+    });
+  </script>
+  <script src="js/bootstrap.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116295338-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-116295338-1');
+  </script>
+  !-- Google reCaptcha -->
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script>
+
+  function get_action(form)
+  {
+      var v = grecaptcha.getResponse();
+      if(v.length == 0)
+      {
+          document.getElementById('captcha').innerHTML="You can't leave Captcha Code empty";
+          return false;
+      }
+      else
+      {
+           document.getElementById('captcha').innerHTML="Captcha completed";
+          return true;
+      }
+  }
+
+  </script>
+</head>
+
+<body>
+  <!-- navbar section starts -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="home.html">
+      <img src="images/icon_transperant.png" alt="logo" style="width:150px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+        <form class="form-inline">
+          <button onclick="window.location.href='home.html'" class="btn btn-outline-danger" type="button">Home</button>
+          <button onclick="window.location.href='articles.html'" class="btn btn-sm btn-outline-secondary" type="button">Articles</button>
+          <button onclick="window.location.href='quote.html'" class="btn btn-outline-success active" type="button">Get a Quote</button>
+          <button onclick="window.location.href='contact.html'" class="btn btn-sm btn-outline-secondary" type="button">Contact US</button>
+        </form>
+      </ul>
+    </div>
+  </nav>
+  <!-- navbar section ends -->
+  <div class="parallax_contact_form">
+    <div class="space-medium">
+      <div class="container">
+        <div class="row">
+          <div class="offset-xl-1 col-xl-10 offset-lg-1 col-lg-10 offset-md-1 col-md-10 col-sm-12 col-12 mt30">
+            <form onsubmit="return validateForm()" action="php/qformvalidate.php">
+              <!-- service-form -->
+              <div class="service-form">
+                <div class="row">
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb10 ">
+                    <h3>Get a Free quote on our Services</h3>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
+                    <div class="form-group service-form-group">
+                      <label class="control-label sr-only" for="name"></label>
+                      <input id="fname" name="first_name" type="text" placeholder="First Name" class="form-control" required>
+                      <div class="form-icon"><i class="fa fa-user"></i></div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12  ">
+                    <div class="form-group service-form-group">
+                      <label class="control-label sr-only" for="name"></label>
+                      <input id="lname" name="last_name" type="text" placeholder="Last Name" class="form-control" required>
+                      <div class="form-icon"><i class="fa fa-user"></i></div>
+                    </div>
+                  </div>
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                    <div class="form-group service-form-group">
+                      <label class="control-label sr-only" for="email"></label>
+                      <input id="email" name="email" type="email" placeholder="Email" class="form-control" required>
+                      <div class="form-icon"><i class="fa fa-envelope"></i></div>
+                    </div>
+                  </div>
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                    <div class="form-group service-form-group">
+                      <label class="control-label sr-only" for="phone"></label>
+                      <input id="phone" name="phone_no" type="text" placeholder="Phone" class="form-control" required>
+                      <div class="form-icon"><i class="fa fa-phone"></i></div>
+                    </div>
+                  </div>
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                    <div class="form-group service-form-group">
+                      <label class="control-label sr-only" for="website"></label>
+                      <input id="website" name="website_url" type="text" placeholder="Preferred Website URL" class="form-control" required>
+                      <div class="form-icon"><i class="fa fa-link"></i></div>
+                    </div>
+                  </div>
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                    <div class="form-group">
+                      <label class="control-label sr-only" for="select"></label>
+                      <div class="select">
+                        <select id="select" name="budget_select" class="form-control" required>
+                                                    <option name="option" value="none selected" selected="selected">Approximate Budget</option>
+                                                    <option name= "option1" value="">Below 10,000 &#8377;</option>
+                                                    <option name= "option2" value="">Below 25,000 &#8377;</option>
+                                                    <option name= "option3" value="">Below 50,000 &#8377;</option>
+                                                </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                    <div class="form-group">
+                      <label class="control-label sr-only" for="select"></label>
+                      <div class="select">
+                        <select id="select_contact" name="contact_select" class="form-control" required>
+                                                    <option name= "option" value="none selected" selected="selected">HOW DO YOU PREFER TO BE CONTACTED?</option>
+                                                    <option name= "option1" value="">Phone</option>
+                                                    <option name= "option2" value="">Email</option>
+                                                                                                    </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                    <div class="form-group">
+                      <label class="control-label sr-only" for="textarea"></label>
+                      <textarea class="form-control" id="textarea" name="comment" rows="3" placeholder="Please explain your query in detail"></textarea>
+                    </div>
+                  </div>
+                  <div class="g-recaptcha" style="padding-bottom: 15px;transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;" data-sitekey="6Lcf_U4UAAAAAHRfwnMpGe7pl6vzoo4FY6a2oRSi" ></div>
+                  <span id="captcha" style="color:red" /></span> <!-- this will show captcha errors -->
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                    <button type="submit" name="singlebutton" class="btn btn-default btn-block mb10" >Submit</button>
+                    <p><small>We promise we will never SPAM you with unwanted emails.</small></p>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <!-- /.service-form -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+<div id="footer"></div>
+
+</html>

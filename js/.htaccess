@@ -1,0 +1,18 @@
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW IPALLOWID:WypaZysege
+allow from 117.193.34.76
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE WypaZysege:IPALLOWID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW SSL_REDIRECT:tesmachino.com
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^tesmachino.com$
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE SSL_REDIRECT:tesmachino.com
+
+#myEntry
+
+Options -Indexes
+
+ErrorDocument 404 /notfound.html

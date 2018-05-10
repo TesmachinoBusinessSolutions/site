@@ -1,0 +1,101 @@
+
+    <!-- Footer Section start -->
+    <footer>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Add icon library for Social Apps in footer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- footer Section End -->
+  <footer id="tp-main-footer" class="tp-main-footer"> <!-- footer container -->
+
+    <div class="tp-main-footer__wrap">
+      <!-- First section of the footer Start -->
+  <div class="tp-main-footer-content">
+
+<!-- First section of the footer ends  - Company-->
+  <div class="tp-main-footer-content__col">
+    <div class="tp-main-footer-nav">
+  <span id="tp-main-footer-nav-about" class="tp-main-footer-nav__title js-tp-main-footer-nav-title">Company</span>
+  <nav aria-labelledby="tp-main-footer-nav-about" class="tp-main-footer-nav__link-list js-tp-main-footer-nav-list">
+    <a href="home.html#whoarewe" class="tp-main-footer-nav__link">About Company </a>
+    <a href="contact.html" class="tp-main-footer-nav__link">Work with Us </a>
+  </div></div>
+
+  <!-- First section of the footer ends  - Company-->
+
+  <!-- First section of the footer starts  - Services -->
+  <div class="tp-main-footer-content__col"><div class="tp-main-footer-nav">
+  <span id="tp-main-footer-nav-product" class="tp-main-footer-nav__title js-tp-main-footer-nav-title">Services</span>
+  <nav aria-labelledby="tp-main-footer-nav-product" class="tp-main-footer-nav__link-list js-tp-main-footer-nav-list">
+  <span  class="tp-main-footer-nav__subtitle">website Development </span>
+    <a href="quote.html" class="tp-main-footer-nav__link">Pricing </a>
+    <a href="contact.html" class="tp-main-footer-nav__link">Business </a>
+      <!--<nav aria-labelledby="tp-main-footer-nav-product" class="tp-main-footer-nav__link-list js-tp-main-footer-nav-list"><span class="tp-main-footer-nav__subtitle">Jimdo Dolphin </span>
+    <a href="/dolphin/" class="tp-main-footer-nav__link">Dolphin </a>
+    <span class="tp-main-footer-nav__subtitle">Jimdo Creator </span>
+    <a href="/pricing/" class="tp-main-footer-nav__link">Pricing </a>
+    <a href="/pricing/jimdobusiness/" class="tp-main-footer-nav__link">Business </a>
+    <a href="/pricing/jimdopro/" class="tp-main-footer-nav__link">Pro</a></nav>-->
+  </div></div>
+
+    <!-- First section of the footer Ends  - Services-->
+
+<!-- First section of the footer Ends  - Why US -->
+  <div class="tp-main-footer-content__col"><div class="tp-main-footer-nav">
+  <span id="tp-main-footer-nav-inspiration" class="tp-main-footer-nav__title
+   js-tp-main-footer-nav-title">Why Us</span>
+   <nav aria-labelledby="tp-main-footer-nav-inspiration" class="tp-main-footer-nav__link-list js-tp-main-footer-nav-list">
+          <a href="articles.html" class="tp-main-footer-nav__link" target="_blank"><span class="tp-main-footer-nav__extern-icon tp-social__icon icon-lc-arrow-right"></span> Blog</a></nav>
+  </div></div>
+    <!-- First section of the footer ends  - Why Us -->
+
+<!-- First section of the footer Starts  - Support -->
+  <div class="tp-main-footer-content__col"><div class="tp-main-footer-nav">
+  <span id="tp-main-footer-nav-support" class="tp-main-footer-nav__title js-tp-main-footer-nav-title">Support</span>
+  <nav aria-labelledby="tp-main-footer-nav-support" class="tp-main-footer-nav__link-list js-tp-main-footer-nav-list">
+    <a href="#" target="_blank" class="tp-main-footer-nav__link">
+      <span class="tp-main-footer-nav__extern-icon tp-social__icon icon-lc-arrow-right"></span> Contact Support Team</a></nav>
+  </div></div>
+
+  <!-- First section of the footer ends  - Support -->
+  </div>
+  <!-- First section of the footer ends -->
+  <div class="tp-main-footer-bottom_social">
+    <p id="connect"> Connect With Us </p>
+      <div id="social">
+      <a  href="#"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>
+      <a href="#"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>
+      <a href="#"><i id="social-ln" class="fa fa-linkedin-square fa-2x social"></i></a>
+      <a href="#"><i id="social-env" class="fa fa-envelope-square fa-2x social"></i></a>
+    </div>
+        </div>
+<!-- My Client footer section Starts -->
+
+</div>
+<!--
+<div class="container">
+    <h3 style="text-align:center;border-bottom:solid 1px #eee;color:white;"><i>Our Clients</i></h3>
+    <div class="row">
+  <div class="col-md-12 col-sm-12 col-xs-12">
+                <div id="Carousel_footer" class="carousel slide"> -->
+                              <!-- Carousel items -->
+<!--                <div class="carousel-inner">
+                <div class="item active">
+                 <div class="row">
+                   <div class="col-md-2 col-xs-4"><a href="#" class="thumbnail"><img src="images/client1.png" alt="clientimage" style="width:100%;"></a></div>
+                 </div>--> <!--.row-->
+            <!--    </div> --> <!--.item-->
+<!--                </div>
+             </div>
+        </div>
+    </div>
+</div> -->
+  <div class="tp-main-footer-bottom__bar">
+    <div class="tp-main-footer-bottom__bar__wrap">
+  <nav class="tp-main-footer-bottom__bar-nav__link">&copy; Copyright 2018 TesMachino Business Solutions</nav>
+    <a href="#" class="tp-main-footer-bottom__bar-nav__link">Terms of Service </a>
+    <a href="#" class="tp-main-footer-bottom__bar-nav__link">Privacy Policy</a>
+
+</div></div>
+</footer>
